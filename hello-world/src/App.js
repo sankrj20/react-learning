@@ -5,6 +5,7 @@ import { Component } from 'react';
 import Welcome from './components/Welcome';
 import MessageChanger from './components/MessageChanger';
 import Counter from './components/Counter';
+import EventHandlerBind from './components/EventHandlerBind';
 
 class App extends Component {
   render() {
@@ -21,8 +22,9 @@ class App extends Component {
         </Welcome>
         <MessageChanger />
       </div>
-      */
-      <Counter />  
+      
+      <Counter /> */
+      <EventHandlerBind /> 
       
     )
   }
