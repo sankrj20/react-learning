@@ -6,6 +6,8 @@ import Welcome from './components/Welcome';
 import MessageChanger from './components/MessageChanger';
 import Counter from './components/Counter';
 import EventHandlerBind from './components/EventHandlerBind';
+import ConditionRender from './components/ConditionRender';
+import FragmentDemo from './components/FragmentDemo'
 
 class App extends Component {
   render() {
@@ -21,10 +23,11 @@ class App extends Component {
           <button>Dont click me </button>
         </Welcome>
         <MessageChanger />
-      </div>
-      
-      <Counter /> */
+      </div>      
+      <Counter /> 
       <EventHandlerBind /> 
+      <ConditionRender />*/
+      <FragmentDemo />
       
     )
   }
